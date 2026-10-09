@@ -1,0 +1,28 @@
+---
+title: "Project 2 Approach"
+author: "Antik Salimullah"
+format: html
+editor: visual
+---
+
+------------------------------------------------------------------------
+
+## Project Overview
+
+For this project, I selected three wide-format datasets to practice cleaning, transforming, and analyzing data using R. I will use `tidyr` and `dplyr` to convert the datasets into tidy long formats, then explore patterns and trends through summary tables and visualizations.
+
+## Dataset 1: U.S. vs. China Military Expenditure (SIPRI)
+
+I will use military expenditure data from SIPRI to compare spending trends between the United States and China. Since the dataset contains years as separate columns, I will use `pivot_longer()` to reorganize the data, clean missing values, and examine how military spending and the gap between the two countries have changed over time.
+
+## Dataset 2: U.S. vs. China GDP (World Bank)
+
+I will analyze World Bank GDP data to compare economic growth between the United States and China. I will transform the yearly GDP columns into a long format using `pivot_longer()`, calculate annual growth rates, and examine how the economic gap between the two countries has evolved.
+
+## Dataset 3: National Park Water Chemistry (NPS)
+
+I will use water quality monitoring data from the National Park Service, originally shared in Week 5 Discussion 5A. I will transform the wide-format chemistry measurements into a tidy long format, address missing values, and analyze how pH, nitrogen, and phosphorus measurements vary over time and across different monitoring sites.
+
+## Tools and Methods
+
+All three datasets will be imported into RStudio and processed using `tidyr` and `dplyr`. I will document each transformation, create summary tables and visualizations using `ggplot2`, and explain my findings in Quarto.
